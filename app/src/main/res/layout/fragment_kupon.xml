@@ -7,20 +7,45 @@
     tools:context=".fragment.KuponFragment"
     android:background="@color/white">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
 
-    <RelativeLayout
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="17dp"
+            android:src="@drawable/ic_panah_kiri">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PROMO"
+            android:gravity="center_vertical"
+            android:textSize="28sp"
+            android:fontFamily="@font/louisbold"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width= "match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="54dp"
         android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp">
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="120dp"
             app:cardCornerRadius="25dp"
             app:cardElevation="15dp"
-            android:background="#B8AEAE">
+            android:background="#7E7E7E">
 
             <ImageView
                 android:layout_width="60dp"
@@ -36,22 +61,160 @@
                 android:layout_marginLeft="85dp"
                 android:layout_marginTop="30dp"
                 android:text="DISKON 20% s.d 95%"
+                android:fontFamily="@font/poppinsmedium"
                 android:textColor="@color/white"
-                android:textSize="30dp" />
+                android:textSize="27dp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="85dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="68dp"
+                android:fontFamily="@font/poppinsregular"
                 android:text="Minimal Belanja Rp 50.000 - Rp 150.000" />
         </androidx.cardview.widget.CardView>
-    </RelativeLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="KUPON"
-        android:textColor="@color/colorGreen"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="7dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp"
+            android:background="#7E7E7E">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_token">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:text="CASHBACK 60%"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/white"
+                android:textSize="27dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Pembelian Paket Data dan Pulsa
+                Minimal Pembelian Rp 0" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="7dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp"
+            android:background="#7E7E7E">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/id_discpesawat">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:text="PROMO WOW"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/white"
+                android:textSize="27dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Diskon mulai dari Rp30.000 s.d. Rp1.000.000" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="7dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp"
+            android:background="#7E7E7E">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/kupon">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:text="DISKON ALL ITEM 50%"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/white"
+                android:textSize="27dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Setiap pembelian bernilai Rp10.000 - Rp30.000" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="7dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="15dp"
+            android:background="#7E7E7E">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/ic_token">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="25dp"
+                android:text="CASHBACK 60%"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/white"
+                android:textSize="27dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Pembelian Paket Data dan Pulsa
+                Minimal Pembelian Rp 0" />
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
 
 </FrameLayout>
