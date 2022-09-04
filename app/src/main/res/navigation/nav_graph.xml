@@ -25,4 +25,9 @@
         android:name="com.aminivan.navigationdrawer.fragment.AboutFragment"
         android:label="About"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_kupon"
+        android:name="com.aminivan.navigationdrawer.fragment.KuponFragment"
+        android:label="Kupon"
+        tools:layout="@layout/fragment_kupon" />
 </navigation>
