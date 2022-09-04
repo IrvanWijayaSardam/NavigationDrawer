@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AND1-BINAR/NavigationDrawer/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/AND1-BINAR/NavigationDrawer/app/src/main/res/layout/fragment_about.xml" value="0.36666666666666664" />
+        <entry key="..\:/AND1-BINAR/NavigationDrawer/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/AND1-BINAR/NavigationDrawer/app/src/main/res/layout/fragment_kupon.xml" value="0.36666666666666664" />
+        <entry key="..\:/AND1-BINAR/NavigationDrawer/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
         <entry key="..\:/AND1-BINAR/NavigationDrawer/app/src/main/res/menu/navigation_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/NavDrawer/app/src/main/res/drawable/ic_home.xml" value="0.3005" />
         <entry key="..\:/Irvan/Programming/AndroidStudioProject/NavDrawer/app/src/main/res/drawable/rec_card.xml" value="0.3005" />
