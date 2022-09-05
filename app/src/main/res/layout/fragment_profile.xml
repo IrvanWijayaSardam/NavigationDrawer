@@ -28,17 +28,17 @@
                     android:layout_height="100dp"
                     android:src="@drawable/ic_person"
                     />
+
                 <TextView
                     android:id="@+id/tvNama"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Irvan Wijaya"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:fontFamily="@font/poppinsmedium"
-                    android:layout_toRightOf="@id/ivProfile"
                     android:layout_centerVertical="true"
-                    />
+                    android:layout_toRightOf="@id/ivProfile"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Charlie Putin"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
 
                 <TextView
                     android:layout_width="wrap_content"
