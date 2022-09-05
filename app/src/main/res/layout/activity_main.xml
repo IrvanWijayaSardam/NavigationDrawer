@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:openDrawer="start"
-    android:background="@color/white"
+    android:background="#DFDDDD"
     >
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:id="@+id/layoutToolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="@color/colorPrimary"
+            android:background="#F1C0C0"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingStart="15dp"
