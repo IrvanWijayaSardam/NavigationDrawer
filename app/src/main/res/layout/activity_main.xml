@@ -20,7 +20,7 @@
             android:id="@+id/layoutToolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            android:background="#F1C0C0"
+            android:background="#FB8C00"
             android:gravity="center_vertical"
             android:orientation="horizontal"
             android:paddingStart="15dp"
@@ -45,6 +45,7 @@
         app:headerLayout="@layout/navigation_header"
         app:menu="@menu/navigation_menu"
         android:layout_gravity="start"
+        android:background="#7A7041"
         />
 
 </androidx.drawerlayout.widget.DrawerLayout>
